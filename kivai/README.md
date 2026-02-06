@@ -45,6 +45,15 @@ Any commercial manufacturing, distribution, or commercial exploitation requires 
 
 Unauthorized commercial use is prohibited.
 
+
 ---
+
+## Canonical Technical Repository
+
+The official technical implementation of Kivai (schema, SDK, tests, reference tooling) is maintained in:
+
+https://github.com/tech4life-beyond/kivai
+
+This Product Pack repository contains the TOIL registration, ethics framework, and licensing readiness documentation for the Kivai Platform.
 
 **End of README — T4L-TOIL-002-KIVAI**
