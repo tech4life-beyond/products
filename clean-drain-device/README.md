@@ -1,6 +1,7 @@
 # Clean Drain Device
 
 **TOIL Product ID:** T4L-TOIL-001-CDD  
+**Legacy IDs:** T4L-2025-001  
 **License:** Tech4Life Open Impact License (TOIL) v1.0  
 **Status:** Licensing Ready  
 **Prototype Status:** Pre-Prototype Engineering Phase  

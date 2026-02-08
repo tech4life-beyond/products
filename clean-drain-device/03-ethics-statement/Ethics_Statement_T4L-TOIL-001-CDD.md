@@ -1,8 +1,8 @@
 # Ethics & Responsibility Statement
 
-**Product ID:** T4L-2025-001  
+**Product ID:** T4L-TOIL-001-CDD  
+**Legacy IDs:** T4L-2025-001  
 **Product Name:** Clean Drain Device  
-**Alternate Name:** DrainClean T Adapter  
 **Company:** Tech4Life & Beyond LLC  
 **License Framework:** Tech4Life Open Impact License (TOIL) v1.0
 
@@ -121,5 +121,4 @@ Any updates must preserve the original ethical intent and preventative purpose o
 
 ---
 
-**End of Ethics & Responsibility Statement — Product T4L-2025-001**
-
+**End of Ethics & Responsibility Statement — Product T4L-TOIL-001-CDD**

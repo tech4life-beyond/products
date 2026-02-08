@@ -4,20 +4,12 @@
 
 ---
 
-<!-- Product Image -->
-<!-- Product Image -->
-![Clean Drain Device – DrainClean T Adapter](Sell%20Sheet.png)
-
-*Clean Drain Device (DrainClean T Adapter) – functional diagram showing ports, valve, sensor, and flow direction.*
-
----
-
-
 # Clean Drain Device
 
-**TOIL Product ID:** T4L-2025-001  
+**TOIL Product ID:** T4L-TOIL-001-CDD  
+**Legacy IDs:** T4L-2025-001  
 **Company:** Tech4Life & Beyond LLC  
-**License:** Tech4Life Open Impact License (TOIL)
+**License:** Tech4Life Open Impact License (TOIL) v1.0
 
 ---
 
@@ -105,7 +97,7 @@ Detailed technical specifications are available upon request.
 
 ## Licensing Model (TOIL)
 
-The Clean Drain Device is licensed under the **Tech4Life Open Impact License (TOIL)**.
+The Clean Drain Device is licensed under the **Tech4Life Open Impact License (TOIL) v1.0**.
 
 ### Non-Commercial Use
 - Permitted with attribution
@@ -148,4 +140,3 @@ Email: info@tech4lifeandbeyond.com
 
 **Clean Drain Device**  
 *Prevent damage. Enable visibility. Simplify maintenance.*
-
