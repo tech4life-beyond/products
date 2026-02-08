@@ -1,8 +1,8 @@
 # TOIL Registration Record
 
-**Product ID:** T4L-2025-001  
+**Product ID:** T4L-TOIL-001-CDD  
+**Legacy IDs:** T4L-2025-001  
 **Product Name:** Clean Drain Device  
-**Alternate Name:** DrainClean T Adapter  
 **Company:** Tech4Life & Beyond LLC (Florida, USA)  
 **License:** Tech4Life Open Impact License (TOIL) v1.0  
 **Initial TOIL Registration Date:** 2026-02-01
@@ -12,8 +12,9 @@
 ## 1. Product Identification
 
 - **Official Product Name:** Clean Drain Device  
-- **Alternate / Legacy Name:** DrainClean T Adapter  
-- **TOIL Product ID:** T4L-2025-001  
+- **Aliases:** DrainClean T Adapter  
+- **TOIL Product ID:** T4L-TOIL-001-CDD  
+- **Legacy IDs:** T4L-2025-001  
 - **Product Category:** HVAC Hardware – Preventative Maintenance Device  
 - **TOIL Version:** v1.0
 
@@ -26,7 +27,7 @@ This document constitutes the official TOIL registration of the product listed a
 - **Original Inventor:** Ariel Martin  
 - **Governing Entity:** Tech4Life & Beyond LLC
 
-This product is created, published, and governed under the Tech4Life Open Impact License (TOIL).
+This product is created, published, and governed under the Tech4Life Open Impact License (TOIL) v1.0.
 
 All rights are **licensed, not sold**. No exclusive intellectual property claims are granted under this framework.
 
@@ -132,5 +133,4 @@ This record establishes clear seeable origin, intent, and licensing conditions f
 
 ---
 
-**End of TOIL Registration Record — Product T4L-2025-001**
-
+**End of TOIL Registration Record — Product T4L-TOIL-001-CDD**

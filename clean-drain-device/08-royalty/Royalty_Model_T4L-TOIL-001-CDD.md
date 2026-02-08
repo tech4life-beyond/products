@@ -2,6 +2,7 @@
 
 **Product Name:** Clean Drain Device  
 **Product ID:** T4L-TOIL-001-CDD  
+**Legacy IDs:** T4L-2025-001  
 **TOIL Version:** v1.0  
 **Document Version:** 1.0  
 **Last Updated:** 2026-02-04
@@ -10,7 +11,7 @@
 
 ## 1. Purpose
 
-This document defines the royalty structure and distribution logic for the Clean Drain Device under the Tech4Life Open Impact License (TOIL).
+This document defines the royalty structure and distribution logic for the Clean Drain Device under the Tech4Life Open Impact License (TOIL) v1.0.
 
 This document establishes the internal royalty allocation model. Final commercial percentages are determined through individual Royalty Agreements with licensed manufacturers or distributors.
 

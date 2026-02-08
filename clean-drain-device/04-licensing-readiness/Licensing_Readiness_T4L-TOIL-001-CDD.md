@@ -2,7 +2,7 @@
 
 **Product:** Clean Drain Device  
 **Company:** Tech4Life & Beyond LLC  
-**License Framework:** TOIL – Tech4Life Open Impact License v1.0  
+**License Framework:** Tech4Life Open Impact License (TOIL) v1.0  
 **Status:** Ready for Licensing Evaluation
 
 ---
@@ -147,4 +147,3 @@ Email: info@tech4lifeandbeyond.com
 - Ethical framework documented
 - Licensing pathway clear
 - Ready for manufacturer outreach under TOIL
-
