@@ -29,5 +29,52 @@ jobs:
           curl -fsSL -o rules/product_pack_rules.yml \
             https://raw.githubusercontent.com/tech4life-beyond/product-creation-pipeline/main/rules/product_pack_rules.yml
 
+      - name: Fetch product registry export
+        run: |
+          mkdir -p registry
+          curl -fsSL -o registry/product_index.json \
+            https://raw.githubusercontent.com/tech4life-beyond/product-registry/main/exports/product_index.json
+
+      - name: Validate product IDs against registry
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          import sys
+          from pathlib import Path
+
+          registry_path = Path("registry/product_index.json")
+          registry = json.loads(registry_path.read_text(encoding="utf-8"))
+          toil_ids = {entry.get("toil_id") for entry in registry if entry.get("toil_id")}
+
+          pattern = re.compile(r"T4L-TOIL-\d{3}-[A-Z0-9-]+")
+          readmes = sorted(Path(".").glob("*/README.md"))
+          missing_ids = []
+          missing_readmes = []
+
+          for readme in readmes:
+            content = readme.read_text(encoding="utf-8")
+            match = pattern.search(content)
+            if not match:
+              missing_readmes.append(str(readme))
+              continue
+            product_id = match.group(0)
+            if product_id not in toil_ids:
+              missing_ids.append(product_id)
+
+          if missing_readmes:
+            print("Missing Product ID in README files:")
+            for readme in missing_readmes:
+              print(f"  - {readme}")
+
+          if missing_ids:
+            print("Product IDs missing from registry export:")
+            for product_id in sorted(set(missing_ids)):
+              print(f"  - {product_id}")
+
+          if missing_readmes or missing_ids:
+            sys.exit(1)
+          PY
+
       - name: Validate product pack
         run: python tools/t4l_validate_pack.py .
