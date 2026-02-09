@@ -25,9 +25,9 @@ jobs:
         run: |
           mkdir -p tools rules
           curl -fsSL -o tools/t4l_validate_pack.py \
-            https://raw.githubusercontent.com/tech4life-beyond/product-creation-pipeline/main/tools/t4l_validate_pack.py
+            https://raw.githubusercontent.com/tech4life-beyond/product-creation-pipeline/f3b0d6d7c8e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4/tools/t4l_validate_pack.py
           curl -fsSL -o rules/product_pack_rules.yml \
-            https://raw.githubusercontent.com/tech4life-beyond/product-creation-pipeline/main/rules/product_pack_rules.yml
+            https://raw.githubusercontent.com/tech4life-beyond/product-creation-pipeline/f3b0d6d7c8e9f1a2b3c4d5e6f7a8b9c0d1e2f3a4/rules/product_pack_rules.yml
 
       - name: Fetch product registry export
         run: |
