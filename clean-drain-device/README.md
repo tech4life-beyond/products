@@ -1,5 +1,19 @@
 # Clean Drain Device
 
+Product Name: Clean Drain Device
+
+Category: HVAC Hardware
+
+Lead Creator: Ariel Martin
+
+Status: Active
+
+License State: Open for Licensing
+
+Aliases: DrainClean T Adapter
+
+Legacy IDs: T4L-2025-001
+
 **TOIL Product ID:** T4L-TOIL-001-CDD  
 **Legacy IDs:** T4L-2025-001  
 **License:** Tech4Life Open Impact License (TOIL) v1.0  

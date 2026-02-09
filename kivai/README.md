@@ -1,5 +1,15 @@
 # Kivai (Platform Product Pack)
 
+Product Name: Kivai
+
+Category: Platform / Software
+
+Lead Creator: Ariel Martin
+
+Status: Active
+
+License State: Open for Licensing
+
 **Product ID:** T4L-TOIL-002-KIVAI  
 **Classification:** Platform Infrastructure (Software / Interoperability Standard)  
 **License:** Tech4Life Open Impact License (TOIL) v1.0  
