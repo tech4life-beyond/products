@@ -1,0 +1,43 @@
+name: Trigger registry sync
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dispatch:
+    name: Dispatch registry sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch sync event
+        env:
+          DISPATCH_TOKEN: ${{ secrets.REGISTRY_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then
+            echo "REGISTRY_DISPATCH_TOKEN secret is not set."
+            exit 1
+          fi
+
+          payload=$(cat <<JSON
+          {
+            "source_repo": "tech4life-beyond/products",
+            "ref": "${{ github.ref }}",
+            "sha": "${{ github.sha }}"
+          }
+          JSON
+          )
+
+          response=$(curl -sS -o /tmp/dispatch_response.json -w "%{http_code}" \
+            -X POST \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Content-Type: application/json" \
+            https://api.github.com/repos/tech4life-beyond/product-registry/dispatches \
+            -d "{\"event_type\":\"sync_from_products\",\"client_payload\":$payload}")
+
+          if [ "$response" -lt 200 ] || [ "$response" -ge 300 ]; then
+            echo "Dispatch failed with status $response"
+            cat /tmp/dispatch_response.json
+            exit 1
+          fi
