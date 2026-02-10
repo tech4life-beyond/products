@@ -134,3 +134,4 @@ This record establishes clear seeable origin, intent, and licensing conditions f
 ---
 
 **End of TOIL Registration Record — Product T4L-TOIL-001-CDD**
+> Registry sync test marker.
