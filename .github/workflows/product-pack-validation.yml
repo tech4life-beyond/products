@@ -24,7 +24,7 @@ jobs:
         with:
           repository: tech4life-beyond/product-creation-pipeline
           ref: v1.0.0
-          path: _pipeline
+          path: .ci/pipeline
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,5 +38,5 @@ jobs:
 
       - name: Run product pack validator
         run: |
-          python3 _pipeline/tools/t4l_validate_pack.py . --rules _pipeline/rules/product_pack_rules.yml
+          python3 .ci/pipeline/tools/t4l_validate_pack.py . --rules .ci/pipeline/rules/product_pack_rules.yml
 
