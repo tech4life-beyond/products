@@ -1,0 +1,9 @@
+# Default owners for everything
+* @tech4life-beyond/Owners @tech4life-beyond/Architects
+
+# Workflows
+.github/workflows/ @tech4life-beyond/Architects
+
+# Product packs
+clean-drain-device/ @tech4life-beyond/Creators
+kivai/ @tech4life-beyond/Architects
