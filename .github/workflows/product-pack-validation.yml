@@ -33,5 +33,5 @@ jobs:
 
       - name: Run product pack validator
         run: |
-          python3 _pipeline/tools/validate_product_packs.py --repo-root .
+          python3 _pipeline/tools/t4l_validate_pack.py . --rules _pipeline/rules/product_pack_rules.yml
 
