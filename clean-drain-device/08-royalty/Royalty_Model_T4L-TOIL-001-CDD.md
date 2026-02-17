@@ -1,10 +1,10 @@
 # Royalty Model Document
 
-**Product Name:** Clean Drain Device  
-**Product ID:** T4L-TOIL-001-CDD  
-**Legacy IDs:** T4L-2025-001  
-**TOIL Version:** v1.0  
-**Document Version:** 1.0  
+**Product Name:** Clean Drain Device
+**Product ID:** T4L-TOIL-001-CDD
+**Legacy IDs:** T4L-2025-001
+**TOIL Version:** v1.0
+**Document Version:** 1.0
 **Last Updated:** 2026-02-04
 
 ---
@@ -29,7 +29,7 @@ Commercial use without agreement is prohibited.
 
 Unless otherwise negotiated, the default structure is:
 
-**Royalty Base:** Net Sales Revenue  
+**Royalty Base:** Net Sales Revenue
 (Net sales = Gross revenue minus returns, refunds, and approved distribution costs)
 
 **Royalty Range:** 3%–8% of Net Sales
@@ -44,32 +44,13 @@ Final percentage is negotiated based on:
 
 ---
 
-## 4. Internal Royalty Allocation Framework
+## 4. Internal Royalty Allocation Framework (Redacted — Public)
 
-When royalty revenue is received by Tech4Life & Beyond LLC, distribution follows this model unless otherwise defined in a specific Collaboration Agreement.
+Tech4Life & Beyond LLC maintains an internal royalty allocation framework to distribute proceeds to contributors and to sustain operations.
 
-### A. Creator Allocation
+**Public note:** Specific internal allocation percentages, contributor splits, and distribution mechanics are **Confidential** and are maintained in private internal repositories. They are finalized per product and may vary based on contribution records and collaboration agreements.
 
-If developed by a Product Cell:
-
-- 60% allocated to Product Cell contributors
-- Distributed proportionally based on documented contribution level
-
-If single inventor:
-
-- Allocation defined by founder decision under internal governance
-
-### B. Company Allocation
-
-- 40% retained by Tech4Life & Beyond LLC
-
-Used for:
-
-- Operational costs
-- Legal protection
-- Platform infrastructure
-- New product incubation
-- Community growth
+For external licensing, the only binding commercial terms are those defined in the signed TOIL Royalty Agreement with the licensee.
 
 ---
 

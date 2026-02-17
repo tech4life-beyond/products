@@ -1,0 +1,20 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Build artifacts
+dist/
+build/
