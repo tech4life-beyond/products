@@ -13,12 +13,11 @@ concurrency:
 
 jobs:
   dispatch:
-    # Prevent infinite loops if a bot updates the repo
     if: ${{ !endsWith(github.actor, '[bot]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch sync event to product-registry
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697
         with:
           token: ${{ secrets.REGISTRY_DISPATCH_TOKEN }}
           repository: tech4life-beyond/product-registry
