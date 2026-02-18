@@ -1,10 +1,10 @@
 # Prototype Status Document
 
-**Product Name:** Clean Drain Device  
-**Product ID:** T4L-TOIL-001-CDD  
-**Legacy IDs:** T4L-2025-001  
-**TOIL Version:** v1.0  
-**Document Version:** 1.0  
+**Product Name:** Clean Drain Device
+**Product ID:** T4L-TOIL-001-CDD
+**Legacy IDs:** T4L-2025-001
+**TOIL Version:** v1.0
+**Document Version:** 1.0
 **Last Updated:** 2026-02-04
 
 ---
@@ -19,9 +19,9 @@ This document is part of the official Tech4Life Product Pack structure.
 
 ## 2. Current Prototype Status
 
-**Physical Prototype:** Not yet manufactured  
-**Functional CAD Model:** Pending  
-**3D Print Test Unit:** Not produced  
+**Physical Prototype:** Not yet manufactured
+**Functional CAD Model:** Pending
+**3D Print Test Unit:** Not produced
 **Electromechanical Integration:** Conceptual stage
 
 The product is currently in the pre-prototype phase.

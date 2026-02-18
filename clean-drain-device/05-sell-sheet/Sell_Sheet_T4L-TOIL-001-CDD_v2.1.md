@@ -6,9 +6,9 @@
 
 # Clean Drain Device
 
-**TOIL Product ID:** T4L-TOIL-001-CDD  
-**Legacy IDs:** T4L-2025-001  
-**Company:** Tech4Life & Beyond LLC  
+**TOIL Product ID:** T4L-TOIL-001-CDD
+**Legacy IDs:** T4L-2025-001
+**Company:** Tech4Life & Beyond LLC
 **License:** Tech4Life Open Impact License (TOIL) v1.0
 
 ---
@@ -132,11 +132,11 @@ Licensing is **ethical, non-exclusive, and scalable**.
 
 ## Licensing Contact
 
-**Tech4Life & Beyond LLC**  
-Website: https://tech4lifeandbeyond.com  
+**Tech4Life & Beyond LLC**
+Website: https://tech4lifeandbeyond.com
 Email: info@tech4lifeandbeyond.com
 
 ---
 
-**Clean Drain Device**  
+**Clean Drain Device**
 *Prevent damage. Enable visibility. Simplify maintenance.*
