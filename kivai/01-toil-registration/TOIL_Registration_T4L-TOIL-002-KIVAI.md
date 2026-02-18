@@ -1,11 +1,11 @@
 # TOIL Registration Record — Kivai
 
-**Product Name:** Kivai  
-**Product ID:** T4L-TOIL-002-KIVAI  
-**Classification:** Platform Infrastructure (Software / Interoperability Standard)  
-**TOIL Version:** v1.0  
-**Document Version:** 1.0  
-**Last Updated:** 2026-02-05  
+**Product Name:** Kivai
+**Product ID:** T4L-TOIL-002-KIVAI
+**Classification:** Platform Infrastructure (Software / Interoperability Standard)
+**TOIL Version:** v1.0
+**Document Version:** 1.0
+**Last Updated:** 2026-02-05
 **Entity:** Tech4Life & Beyond LLC (Florida, USA)
 
 ---

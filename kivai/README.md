@@ -10,10 +10,10 @@ Status: Active
 
 License State: Open for Licensing
 
-**Product ID:** T4L-TOIL-002-KIVAI  
-**Classification:** Platform Infrastructure (Software / Interoperability Standard)  
-**License:** Tech4Life Open Impact License (TOIL) v1.0  
-**Entity:** Tech4Life & Beyond LLC (Florida, USA)  
+**Product ID:** T4L-TOIL-002-KIVAI
+**Classification:** Platform Infrastructure (Software / Interoperability Standard)
+**License:** Tech4Life Open Impact License (TOIL) v1.0
+**Entity:** Tech4Life & Beyond LLC (Florida, USA)
 **Status:** Platform Foundation — In Development
 
 ---
@@ -29,7 +29,7 @@ Kivai is the execution and interoperability layer between AI systems and device 
 
 ## Repositories
 
-**Technical platform repository (code, schema, SDK, CI):**  
+**Technical platform repository (code, schema, SDK, CI):**
 - tech4life-beyond/kivai
 
 This Product Pack provides the official documentation required for TOIL alignment, ethics, and licensing readiness.
@@ -38,13 +38,13 @@ This Product Pack provides the official documentation required for TOIL alignmen
 
 ## Documentation Structure
 
-- **01-toil-registration/**  
+- **01-toil-registration/**
   Official platform registration record under TOIL.
 
-- **03-ethics-statement/**  
+- **03-ethics-statement/**
   Ethical commitments, safety principles, and non-harm alignment.
 
-- **04-licensing-readiness/**  
+- **04-licensing-readiness/**
   Commercial positioning and licensing readiness for industrial partners.
 
 ---
