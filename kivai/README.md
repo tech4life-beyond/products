@@ -41,6 +41,9 @@ This Product Pack provides the official documentation required for TOIL alignmen
 - **01-toil-registration/**
   Official platform registration record under TOIL.
 
+- **02-technical-summary/**
+  Technical summary of the platform, including scope, architecture overview, and canonical technical references.
+
 - **03-ethics-statement/**
   Ethical commitments, safety principles, and non-harm alignment.
 
@@ -54,7 +57,6 @@ This Product Pack provides the official documentation required for TOIL alignmen
 Any commercial manufacturing, distribution, or commercial exploitation requires a signed TOIL Royalty Agreement with Tech4Life & Beyond LLC.
 
 Unauthorized commercial use is prohibited.
-
 
 ---
 
